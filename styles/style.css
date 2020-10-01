@@ -1,0 +1,100 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:arial;
+}
+a{
+  color:black;
+  font-style:normal;
+  text-decoration:none;
+}
+body{
+  width:100vw;
+}
+.spacer{
+  height:2.75vw;
+}
+#theHeader{
+  width:23%;
+  position:fixed;
+  padding-left:2.75vw;
+  height:100vh;
+  left:0;
+}
+h1{
+  font-size:3vw;
+  font-weight:bold;
+  text-align:left;
+}
+h2{
+  font-size:2vw;
+  font-weight:normal;
+  text-align:left;
+}
+#logo{
+  text-align:left;
+}
+.header{
+  vertical-align:baseline;
+  height:10vw;
+  transition:transform 1s ease;
+}
+.header:hover{
+  transform:scale(1.05);
+}
+.headerItem{
+  height: 5vw;
+  transition:color 1s ease;
+  transition:transform 1s ease;
+}
+.headerItem:hover{
+  color:#4e7e92;
+  transform:scale(1.02);
+}
+#cine{
+  transition:transform 1s ease;
+}
+#cine:hover{
+  color:#fe615a;
+}
+#gridPortfolio{
+  position:relative;
+  left:25%;
+  display:grid;
+  width:73vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items:center;
+}
+#gridPortfolioCol1{
+
+}
+#gridPortfolioCol2{
+
+}
+#gridPortfolioCol3{
+
+}
+.gridPhotos{
+  width:23.5vw;
+  margin-bottom:.6vw;
+  transition:transform 1s ease;
+}
+.gridPhotos:hover{
+
+}
+h4{
+  font-weight:normal;
+  font-size:1vw;
+}
+.social{
+  position:fixed;
+  bottom:2vw;
+  left:0;
+  width:23%;
+}
+.socialTable{
+  width:100%;
+}
+.socialLogo{
+  width:4vw;
+}

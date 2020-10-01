@@ -1,0 +1,9 @@
+.headerPhoto{
+  background-color:blue;
+  height:40vw;
+  width:100vw;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index: -1;
+}
